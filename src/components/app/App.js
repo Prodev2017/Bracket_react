@@ -14,6 +14,8 @@ import MainLayout from '../../layouts/Main';
 import Login from '../../features/user/components/Login';
 import Main from '../../components/Main';
 import Planner from '../../features/planner/components/Planner';
+import Bracket from '../../features/planner/components/Bracket/Bracket';
+import EditTermSheet from '../../features/planner/components/Bracket/EditTermSheet';
 
 
 class App extends Component {
@@ -53,6 +55,8 @@ class App extends Component {
 						<Route exact path={'/'} component={( userSelectors.isAuthenticated(this._store.getState()) ? Main : Login )} />
 
 						<Route path={'/planner/:templateId'} component={Planner} />
+						<Route path={'/brackets'} component={Bracket} />
+						<Route path={'/editTermSheet'} component={EditTermSheet} />
 					</MainLayout>
 				</Router>
 			</StoreProvider>
