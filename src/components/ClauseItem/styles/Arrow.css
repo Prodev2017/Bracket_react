@@ -1,0 +1,7 @@
+.clause__arrow  path {
+    stroke-width: 3px;
+}
+
+.clause__arrow__m-incomplete path {
+    stroke-width: 2px;
+}

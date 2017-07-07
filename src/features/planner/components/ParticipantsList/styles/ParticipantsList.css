@@ -1,0 +1,44 @@
+.participants-list {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.participant {
+    flex: 1 auto;
+    text-align: center;
+    height: 100%;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.participant__m-selected p {
+    color: #CE311E;
+}
+
+.participant p {
+    font-weight: 700;
+    padding: 0 0 0 5px;
+    font-size: 12px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.participant p:hover {
+    background-color: #F4F4F4;
+}
+
+.participant__ruler {
+    width: 2px;
+    height: 100%;
+    background-color: rgba(2, 103, 182, 0.4);
+    margin: 0 auto;
+}
+
+.actor-icon {
+    display: inline-block;
+    margin-right: 0.5em;
+    font-size: 1.5em;
+}

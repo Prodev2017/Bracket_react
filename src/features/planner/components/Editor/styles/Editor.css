@@ -1,0 +1,193 @@
+.editor {
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    border-radius: 3px;
+    padding: 0px;
+    overflow: hidden;
+    min-height: 505px;
+    border-top: 2px solid #CE311E;
+}
+
+.editor__header {
+    padding: 10px;
+    text-align: center;
+    background: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.editor__pane {
+    padding: 10px;
+}
+
+.editor__no-editor-selected {
+    height: 100%;
+
+    position: relative;
+    top: 13em;
+    opacity: .7;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.editor .add-controls {
+    background: #f9f9f9;
+    border-top: 1px solid #ddd;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.editor .add-controls td {
+    padding: 0px;
+}
+.editor .add-controls td:first-child {
+    border-right: 1px solid #ddd;
+}
+.editor .add-controls .btn-default {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background: none;
+}
+.editor .attributes-table td:first-child {
+    font-size: 12px;
+    width: 100px;
+}
+.editor .table-bordered {
+    border: none;
+}
+.editor td {
+    border: none !important;
+}
+.editor .menu-form .form-control, .editor .form-control, .editor {
+    font-size: 12px;
+}
+.editor .modal-editor > li > a {
+    padding: 8px;
+    height: auto;
+    color: #bcbcbc;
+    font-size: 12px;
+    cursor: pointer;
+}
+.editor .modal-editor > li.active > a {
+    color: #333;
+    color: #CE311E;
+}
+.editor .icon-container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.editor .move-street-up, .editor .move-street-down, .editor .remove-street {
+    padding: 5px;
+    font-size: 11px;
+    width: 100%;
+}
+#sticker {
+    background: #bada55;
+    color: white;
+    width: 300px;
+    font-family: Droid Sans;
+    font-size: 40px;
+    line-height: 1.6em;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+    border-radius: 50px;
+}
+.scroll-arrow {
+    cursor: pointer;
+}
+
+.large-label {
+    font-size: 14px;
+}
+
+.edit-title.highlight {
+    color: #CE311E;
+    padding-top: 0.3em;
+}
+
+.edit-toolbar {
+    padding-right: 0;
+}
+
+.doc-input-group + .doc-input-group {
+    margin-top: 0.25em;
+}
+
+.doc-input-group .input-group-addon {
+    border-top: 0;
+    border-right: 0;
+}
+
+.payment-row * {
+    padding: 0;
+}
+
+.street-input.payment-amount {
+    text-align: right;
+}
+
+.input-group .form-control.delta-input {
+    width: 20%;
+    padding: 0;
+}
+
+.input-group .form-control.delta-select {
+    width: 115px;
+    color: #777777;
+    font-weight: 400;
+}
+
+.input-group .form-control.document-name {
+    font-weight: 400;
+}
+
+.select-date * {
+    font-weight: 400;
+}
+
+.select-date .date-label {
+    font-weight: 700;
+}
+
+.days-after-label {
+    width: 30%;
+    padding-top: 8px;
+    margin-bottom: 0;
+    height: 34px;
+    border-bottom: 1px solid #D4D4D4;
+}
+
+.select-date .date-addon {
+    border-left: 0;
+    border-top: 0;
+}
+
+.combobox {
+    width: 100%;
+    position: relative;
+    top: 7px;
+    outline: none;
+}
+
+.combobox-container .input-group-addon {
+    border-right: 0;
+    border-top: 0;
+}
+
+.cost-of-capital-table td {
+    text-align: right;
+}
+
+.cost-of-capital-input {
+    border: 0;
+    text-align: right;
+    padding-right: 0;
+}
+
+.financial-column {
+    padding: 1em;
+}

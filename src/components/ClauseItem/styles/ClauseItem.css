@@ -1,0 +1,42 @@
+.clause-item {
+    padding-top: 20px;
+    cursor: pointer;
+    position: relative;
+    border-bottom: 3px solid rgb(179, 179, 179);
+    padding-bottom: 3px;
+}
+
+.clause-item__m-direction-left {
+    text-align: right;
+}
+
+.clause-item p {
+    font-size: 13px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0;
+}
+
+.clause-item__m-selected {
+    border-bottom: 3px solid #CE311E;
+}
+
+.clause-item__m-selected p {
+    color: #CE311E;
+}
+
+.clause-item__m-selected .clause__arrow path {
+    stroke: #CE311E;
+}
+
+.clause-item__m-direction-left .clause__arrow {
+    position: absolute;
+    left: -1px;
+    bottom: -13px;
+}
+
+.clause-item__m-direction-right .clause__arrow {
+    position: absolute;
+    right: -1px;
+    bottom: -13px;
+}
