@@ -2,6 +2,10 @@
     padding: 2em;
 }
 
+.login__content {
+    padding-top: 42px;
+}
+
 .login__form-container {
     min-height: 20px;
     padding: 19px;
@@ -16,10 +20,26 @@
     width:100%;
 }
 
+.login__signup-title {
+    padding: 42px 0 24px;
+    font-size: 28px;
+    line-height: 36px;
+    color: rgb(171, 171, 166);
+    margin-top: 0;
+}
+
 .login__signup-feature {
     padding-bottom: 15px;
     font-size: 17px;
     color: #5B5B59;
+}
+
+.login__signup-feature-icon {
+    text-align: center;
+    width: 80px;
+    display: inline-block;
+    font-size: 30px;
+    color: #C0CAD9;
 }
 
 .login__signup-button-container {
