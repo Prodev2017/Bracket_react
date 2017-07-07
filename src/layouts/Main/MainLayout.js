@@ -11,7 +11,7 @@ const baseCssClassName = 'main-layout';
 const contentCssClassName = `${baseCssClassName}__content`;
 
 
-function MainLayout (props) {
+function mainLayout (props) {
 	return (
 		<div className={baseCssClassName}>
 			<Header />
@@ -23,5 +23,5 @@ function MainLayout (props) {
 	);
 }
 
-export default MainLayout;
+export default mainLayout;
 
