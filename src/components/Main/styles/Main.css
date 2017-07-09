@@ -1,0 +1,10 @@
+.main__options {
+    display: flex;
+
+    margin-top: 10em;
+}
+
+.main__option {
+    width: 33.3%;
+    text-align: center;
+}

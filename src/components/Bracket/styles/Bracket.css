@@ -1,0 +1,30 @@
+.bracket {
+    border-left: 1em solid #CE311E;
+    border-right: 1em solid #CE311E;
+    width: 770px;
+    margin: auto;
+}
+
+.bracket::before {
+    content: "";
+    display: block;
+    height: 1em;
+    border-left: 7em solid #CE311E;
+    border-right: 7em solid #CE311E;
+}
+
+.bracket::after {
+    content: "";
+    display: block;
+    height: 1em;
+    border-left: 7em solid #CE311E;
+    border-right: 7em solid #CE311E;
+}
+
+.bracket__content {
+    min-height: 200px;
+    padding-top: 10px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
