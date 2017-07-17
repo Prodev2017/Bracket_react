@@ -1,0 +1,61 @@
+.pt10 {
+  padding-top: 10px;
+}
+.bracket-overview {
+  margin: 20px; 
+}
+.bracket-outer-line {
+  border-left: 5px solid #B22222;
+  border-right: 5px solid #B22222;
+  min-height: 150px;
+  height: auto;
+  padding: 20px;
+  text-align: center;
+}
+.bracket-top-edge {
+  background: #B22222;
+  height: 5px;    
+  margin-top: 15px;
+}
+.bracket-bottom-edge {
+  background: #B22222;
+  height: 5px;
+}
+.edit-term-sheet-btn div {
+  margin-top: 20px;
+  width: 100%;
+  margin-left: 30px;
+}
+.edit-term-sheet-btn div a {
+  color: #FFF;
+  display: block;
+}
+.bracket-vertical-line {
+  padding-top: 10px;
+  background: #D3D3D3;
+  width: 2px;
+  min-height: 150px;
+  height: auto;
+}
+.bracket-horizontal-line {
+  background: #AAA;
+  height: 1px;
+  width: 429px;
+  cursor: pointer;
+}
+.bracket-horizontal-line-outer {
+  position: relative;
+  top: 10px;
+  right: 347px;
+}
+.bracket-horizontal-line span {
+    position: relative;
+    bottom: 18px;
+    left: 100px;
+}
+.bracket-horizontal-line i {
+  position: relative;
+  top: -7px;
+  right: 4px;
+  float: left;
+}
